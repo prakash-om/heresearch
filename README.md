@@ -8,8 +8,10 @@ mvn spring-boot:run
 
 
 # API to Check 
-api follow the standard structure of appname/api/version/resourcename?queryParm
-Ex : http://localhost:8080/searchApp/api/v1/search?geocode=40.41956,-3.69196
+api follow the standard structure of appname/api/version/resourcename?queryParm   
+
+Ex1 : http://localhost:8080/searchApp/api/v1/search?geocode=40.41956,-3.69196   
+Ex2 : http://localhost:8080/searchApp/api/v1/search?cityname=berlin    
 
 2 types of Query parms are supported 
 1) geocode of location 
