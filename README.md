@@ -1,4 +1,6 @@
 # How to Run 
+Make sure you are running memcahe and provide the url and port details in application properties files to support cache for this application
+
 Please download the project and import it in spring STS and click on Run as SpringBoot application
 
 or maven commands   
